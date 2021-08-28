@@ -43,8 +43,8 @@
 		}
 		{
 			x: -0.5d
-			y: -1.0d
-			description: ["Feed this baby any burnable fuel, and get a little mana. Your gonna need a LOT of mana, so finding a way to automate this would be good."]
+			y: -2.0d
+			description: ["Feed this baby almost all burnable fuels, and get a little mana. Your gonna need a LOT of mana, so finding a way to automate this would be good."]
 			dependencies: ["23B1EDD34F908D34"]
 			id: "77266873380E684B"
 			tasks: [{
@@ -239,8 +239,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 4.0d
+			x: -6.5d
+			y: 5.0d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["151F6D758C36B902"]
@@ -254,7 +254,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -8.5d
 			y: 4.0d
 			shape: "square"
 			hide_dependency_lines: true
@@ -269,8 +269,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 4.0d
+			x: -8.5d
+			y: 5.0d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["151F6D758C36B902"]
@@ -284,7 +284,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -3.5d
 			y: 4.0d
 			shape: "square"
 			hide_dependency_lines: true
@@ -299,7 +299,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -7.5d
 			y: 4.0d
 			shape: "square"
 			hide_dependency_lines: true
@@ -314,7 +314,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -6.5d
 			y: 4.0d
 			shape: "square"
 			hide_dependency_lines: true
@@ -329,8 +329,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 4.0d
+			x: -7.5d
+			y: 5.0d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["151F6D758C36B902"]
@@ -344,8 +344,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 4.0d
+			x: -4.5d
+			y: 5.0d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["151F6D758C36B902"]
@@ -359,8 +359,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 4.0d
+			x: -5.5d
+			y: 5.0d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["151F6D758C36B902"]
@@ -374,8 +374,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 5.0d
+			x: -4.5d
+			y: 4.0d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["151F6D758C36B902"]
@@ -389,8 +389,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 5.0d
+			x: -1.5d
+			y: 4.0d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["151F6D758C36B902"]
@@ -404,8 +404,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 5.0d
+			x: -2.5d
+			y: 4.0d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["151F6D758C36B902"]
@@ -419,7 +419,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -2.5d
 			y: 5.0d
 			shape: "square"
 			hide_dependency_lines: true
@@ -434,8 +434,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 5.0d
+			x: -5.5d
+			y: 4.0d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["151F6D758C36B902"]
@@ -449,8 +449,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 5.0d
+			x: -9.5d
+			y: 4.0d
 			shape: "square"
 			hide_dependency_lines: true
 			dependencies: ["151F6D758C36B902"]
@@ -464,7 +464,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -3.5d
 			y: 5.0d
 			shape: "square"
 			hide_dependency_lines: true
@@ -626,6 +626,29 @@
 				type: "item"
 				item: "botania:dragonstone"
 				count: 2L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			description: [
+				"The wrench of Botania, used to bind blocks together, like an endoflame to a spreader."
+				""
+				"(You can add this to your morphing tool!)"
+			]
+			dependencies: ["43CAD2D228478D6D"]
+			id: "739E0C725998A29C"
+			tasks: [{
+				id: "4B80B02B41616802"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
 			}]
 		}
 	]
