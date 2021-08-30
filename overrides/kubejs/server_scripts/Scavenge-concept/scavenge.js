@@ -1,6 +1,6 @@
 onEvent('recipes',event =>{
     //cutting down on space
-    const {mixing,filling,splashing,sequenced_assembly,deploying,cutting}= event.recipes.create
+    const {mixing,filling,splashing,sequenced_assembly,deploying,cutting} = event.recipes.create
     //context:
     //event.recipes.create.sequenced_assembly(output[], input, sequence[]).transitionalItem(item).loops(number)
 
@@ -23,7 +23,7 @@ onEvent('recipes',event =>{
             filling('minecraft:gravel',['minecraft:gravel',fluid.of('minecraft:water',200)]),
             cutting('minecraft:gravel','minecraft:gravel').processingTime(100)
         ]
-        ).transitionalItem('minecraft:gravel').id('kjs_scavenge:gravel').loops(2)
+        ).transitionalItem('minecraft:gravel').id('kjs_scavenge:scavenging/gravel').loops(2)
     
     //limesand
     sequenced_assembly(
@@ -45,7 +45,7 @@ onEvent('recipes',event =>{
             filling('minecraft:gravel',['minecraft:gravel',fluid.of('minecraft:water',200)]),
             cutting('minecraft:gravel','minecraft:gravel').processingTime(100)
         ]
-    ).transitionalItem('create:limesand').id('kjs_scavenge:limesand').loops(2)
+    ).transitionalItem('create:limesand').id('kjs_scavenge:scavenging/limesand').loops(2)
 
     //sand
     sequenced_assembly(
@@ -66,7 +66,7 @@ onEvent('recipes',event =>{
             filling('minecraft:gravel',['minecraft:gravel',fluid.of('minecraft:water',200)]),
             cutting('minecraft:gravel','minecraft:gravel').processingTime(100)
         ]
-    ).transitionalItem('minecraft:sand').id('kjs_scavenge:sand').loops(2)
+    ).transitionalItem('minecraft:sand').id('kjs_scavenge:scavenging/sand').loops(2)
 
     //netherrack
     sequenced_assembly(
@@ -88,5 +88,5 @@ onEvent('recipes',event =>{
             filling('minecraft:gravel',['minecraft:gravel',fluid.of('minecraft:water',200)]),
             cutting('minecraft:gravel','minecraft:gravel').processingTime(100)
         ]
-    ).transitionalItem('minecraft:netherrack').id('kjs_scavenge:netherrack').loops(2)
+    ).transitionalItem('minecraft:netherrack').id('kjs_scavenge:scavenging/netherrack').loops(2)
 })
