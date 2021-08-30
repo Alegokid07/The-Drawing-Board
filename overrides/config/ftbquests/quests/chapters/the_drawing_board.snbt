@@ -38,7 +38,7 @@
 			icon: "minecraft:paper"
 			x: 0.0d
 			y: -2.5d
-			description: ["The Notes mod is in here, which is a handy way to organize yourself. It's set to N by default, but probably needs to be rebinded."]
+			description: ["The Notes mod is in here, which is a handy way to organize yourself. It's set to N by default, but probably needs to be rebound."]
 			dependencies: ["2AE15D8118D7BE43"]
 			id: "6963007B189D25CF"
 			tasks: [{
@@ -51,7 +51,12 @@
 			icon: "minecraft:chain"
 			x: 2.5d
 			y: 0.0d
-			description: ["Discord: https://discord.gg/D57UPM9znY"]
+			description: [
+				"Discord: https://discord.gg/D57UPM9znY"
+				""
+				""
+				"Issues: https://github.com/Alegokid07/The-Drawing-Board/issues"
+			]
 			dependencies: ["2AE15D8118D7BE43"]
 			id: "2AC728B9B1752FF4"
 			tasks: [{
@@ -195,6 +200,15 @@
 				id: "25825FCE0991D2AF"
 				type: "checkmark"
 				title: "Begin your adventure!"
+			}]
+			rewards: [{
+				id: "1DC5946143D7FDEC"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 	]

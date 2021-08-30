@@ -1812,7 +1812,7 @@
 		#To blacklist all biomes from a single mod, use 'modid:*'
 		end_biome_blacklist = []
 		#Activate/Deactivate the Ore Gen in The End [Default: false]
-		generate_in_the_end = false
+		generate_in_the_end = true
 		#Average Ores per Chunk [Default: 2]
 		#Range: 0 ~ 64
 		end_count = 2
@@ -1825,13 +1825,13 @@
 	active = true
 
 ["Stratum Config: minecraft_andesite"]
-	active = false
+	active = true
 
 ["Stratum Config: minecraft_granite"]
-	active = false
+	active = true
 
 ["Stratum Config: minecraft_diorite"]
-	active = false
+	active = true
 
 ["Stratum Config: minecraft_sand"]
 	active = false
@@ -1840,74 +1840,74 @@
 	active = false
 
 ["Stratum Config: minecraft_netherrack"]
-	active = false
+	active = true
 
 ["Stratum Config: minecraft_blackstone"]
-	active = false
+	active = true
 
 ["Stratum Config: minecraft_basalt"]
-	active = false
+	active = true
 
 ["Stratum Config: minecraft_soul_soil"]
 	active = false
 
 ["Stratum Config: minecraft_end_stone"]
-	active = false
+	active = true
 
 ["Stratum Config: create_gabbro"]
-	active = false
+	active = true
 
 ["Stratum Config: create_limestone"]
-	active = false
+	active = true
 
 ["Stratum Config: create_scoria"]
-	active = false
+	active = true
 
 ["Stratum Config: create_weathered_limestone"]
-	active = false
+	active = true
 
 ["Stratum Config: quark_jasper"]
-	active = false
+	active = true
 
 ["Stratum Config: quark_marble"]
-	active = false
+	active = true
 
 ["Stratum Config: quark_slate"]
-	active = false
+	active = true
 
 ["Stratum Config: quark_deepslate"]
-	active = false
+	active = true
 
 ["Stratum Config: byg_mossy_stone"]
-	active = false
+	active = true
 
 ["Stratum Config: byg_brimstone"]
-	active = false
+	active = true
 
 ["Stratum Config: byg_subzero_ash"]
 	active = false
 
 ["Stratum Config: byg_blue_netherrack"]
-	active = false
+	active = true
 
 ["Stratum Config: byg_nylium_soul_soil"]
 	active = false
 
 ["Stratum Config: byg_ether_stone"]
-	active = false
+	active = true
 
 ["Stratum Config: byg_cryptic_stone"]
-	active = false
+	active = true
 
 ["Stratum Config: betterend_flavolite"]
-	active = false
+	active = true
 
 ["Stratum Config: betterend_sulphuric_rock"]
-	active = false
+	active = true
 
 ["Stratum Config: betterend_violecite"]
-	active = false
+	active = true
 
 ["Stratum Config: astral_marble"]
-	active = false
+	active = true
 
