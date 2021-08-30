@@ -71,16 +71,17 @@ onEvent('recipes',event =>{
     //netherrack
     sequenced_assembly(
         [
-            item.of('quark:soul_bead'),
-            item.of('create:rose_quartz'),
-            item.of('tconstruct:scorched_brick'),
-
-            item.of('tconstruct:ichor_slime_ball'),
-            item.of('create:cinder_flour',3),
-            item.of('tconstruct:cobalt_nugget',2),
-
-            item.of('tconstruct:manyullyn_nugget'),
-            item.of('tconstruct:debris_nugget'),
+            //tier 1
+            item.of('create:cinder_flour',3).withChance(20.5),
+            item.of('create:rose_quartz').withChance(20.5),
+            item.of('tconstruct:scorched_brick').withChance(20.5),
+            item.of('tconstruct:ichor_slime_ball').withChance(20.5),
+            //tier 2
+            item.of('quark:soul_bead').withChance(6.5),
+            item.of('tconstruct:cobalt_nugget',2).withChance(6.5),
+            //tier 3
+            item.of('tconstruct:manyullyn_nugget').withChance(2.5),
+            item.of('tconstruct:debris_nugget').withChance(2.5),
         ],
             item.of('minecraft:netherrack'),
         [
