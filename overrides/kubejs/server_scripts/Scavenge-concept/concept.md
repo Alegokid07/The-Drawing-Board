@@ -31,3 +31,11 @@ current processes added:
     - manyullyn nuggets (%2.5)
     - ichor balls (%20.5)
     - scorched bricks (%20.5)
+
+Current changes made:
+- manyullyn nuggets
+    - takes blaze cakes to be made ingots
+- debris nuggets
+    -takes blaze cakes to be made into dirty scrap
+- blaze cakes
+    - takes blazing blood instead of lava
