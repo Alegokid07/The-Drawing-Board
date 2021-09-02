@@ -12,6 +12,7 @@ onEvent('recipes',event =>{
             item.of('emendatusenigmatica:silver_nugget'),
             item.of('emendatusenigmatica:lead_nugget'),
             item.of('minecraft:iron_nugget'),
+            
             item.of('emendatusenigmatica:copper_nugget',3),
             item.of('emendatusenigmatica:zinc_nugget',3),
             item.of('emendatusenigmatica:silver_nugget',3),
@@ -50,18 +51,18 @@ onEvent('recipes',event =>{
     //sand
     sequenced_assembly(
         [
-            item.of('minecraft:gold_nugget'),
-            item.of('emendatusenigmatica:tin_nugget'),
-            item.of('minecraft:clay_ball'),
-            item.of('botania:quartz_sunny'),
+            item.of('minecraft:gold_nugget').withChance(18.6),
+            item.of('emendatusenigmatica:tin_nugget').withChance(18.6),
+            item.of('minecraft:clay_ball').withChance(18.6),
+            item.of('botania:quartz_sunny').withChance(18.6),
 
-            item.of('minecraft:gold_nugget',3),
-            item.of('emendatusenigmatica:tin_nugget',3),
-            item.of('minecraft:clay_ball',3),
-            item.of('botania:quartz_sunny',3),
-            item.of('tconstruct:quartz_shuriken',2)
+            item.of('minecraft:gold_nugget',3).withChance(5.1),
+            item.of('emendatusenigmatica:tin_nugget',3).withChance(5.1),
+            item.of('minecraft:clay_ball',3).withChance(5.2),
+            item.of('botania:quartz_sunny',3).withChance(5.1),
+            item.of('tconstruct:quartz_shuriken',2).withChance(5.0)
         ],
-        item.of('minecraft:sand'),
+            item.of('minecraft:sand'),
         [
             filling('minecraft:gravel',['minecraft:gravel',fluid.of('minecraft:water',200)]),
             cutting('minecraft:gravel','minecraft:gravel').processingTime(100)
