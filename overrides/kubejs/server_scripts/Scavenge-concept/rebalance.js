@@ -11,7 +11,7 @@ onEvent('recipes',event =>{
     
     //blaze cake
     event.remove({id:'create:filling/blaze_cake'})
-    Filling(
+    filling(
             'create:blaze_cake', 
         [
             'create:blaze_cake_base',
