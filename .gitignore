@@ -14,6 +14,7 @@ schematics/
 # Instance files
 BotaniaVars.dat
 config.json
+config_new_temp.json
 options.txt
 patchouli_data.json
 usercache.json
