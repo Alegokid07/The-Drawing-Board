@@ -22,6 +22,8 @@ Downloads:
     - Github Desktop: https://desktop.github.com/
     - GDLauncher: https://gdevs.io/#downloadContainer
 
+Additional Note: DO NOT LAUNCH THE INSTANCE BEFORE YOU HAVE COMPLETED EVERYTHING!
+
 ## Set up the instance
 
 You will need to set up an instance through your launcher with the latest **1.16.5** Forge. This varries from launcher to launcher. For GDLauncher:
@@ -43,9 +45,11 @@ git init                        # Will initialize a Git Repository
 git remote add origin <URL>     # Set remote origin to your repository (in the form of an HTTPS link)
 git remote -v                   # Verify remote
 git fetch
-git checkout <branch>           # (Optional) Set to a branch
+git checkout <branch>           # Set to a branch (IMPORTANT! IF YOU DONT DO THIS, IT WILL BE A BASICALLY EMPTY REPOSITORY!)
 git pull                        # (Optional) Ensures its up to latest
 ```
+
+So for us who work on the pack, we would replace `<URL>` with `https://github.com/Alegokid07/The-Drawing-Board` and `<branch>` would be `main`
 
 ## Import into Github Desktop
 
