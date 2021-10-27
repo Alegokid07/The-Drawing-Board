@@ -1,1 +1,20 @@
-#placeholder
+
+# Instance directories
+.mixin.out/
+journeymap/
+local/
+logs/
+natives/
+openloader/
+patchouli_books/
+resourcepacks/
+saves/
+schematics/
+
+# Instance files
+BotaniaVars.dat
+config.json
+options.txt
+patchouli_data.json
+usercache.json
+usernamecache.json

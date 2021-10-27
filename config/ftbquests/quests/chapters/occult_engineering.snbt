@@ -1,0 +1,26 @@
+{
+	id: "42D854A98C5F17AD"
+	group: "363F207643B1ADEC"
+	order_index: 2
+	filename: "occult_engineering"
+	title: "Occult Creations"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		dependencies: ["31640A0E5D653BB1"]
+		id: "17C5AD22BBFD9C2E"
+		tasks: [{
+			id: "15DA463374A0C69C"
+			type: "item"
+			item: {
+				id: "occultism:chalk_white"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}]
+	}]
+}
