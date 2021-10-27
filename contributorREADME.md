@@ -44,7 +44,7 @@ git remote add origin <URL>     # Set remote origin to your repository (in the f
 git remote -v                   # Verify remote
 git fetch
 git checkout <branch>           # (Optional) Set to a branch
-git pull                        # Ensures its up to latest
+git pull                        # (Optional) Ensures its up to latest
 ```
 
 ## Import into Github Desktop
