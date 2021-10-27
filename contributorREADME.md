@@ -19,7 +19,9 @@ Also you may want to fork the repository.
 Downloads:
 
     - Git: https://git-scm.com/downloads
+
     - Github Desktop: https://desktop.github.com/
+    
     - GDLauncher: https://gdevs.io/#downloadContainer
 
 ## Set up the instance
